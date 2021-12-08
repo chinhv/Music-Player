@@ -209,7 +209,7 @@ const app = {
         closeBtn.onclick = function() {
             menuOption.style.width = '0px'
         }
-        volumeInput.oninput = function(e) {
+        volumeInput.onchange = function(e) {
             audio.volume = e.target.value / 100
         }
         openOption.onclick = function() {

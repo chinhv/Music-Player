@@ -125,7 +125,8 @@
     -webkit-appearance: none;
     appearance: none;
     width: 12px;
-    height: 6px;
+    height: 12px;
+    border-radius: 50%;
     background-color: var(--primary-color);
     cursor: pointer;
   }
@@ -236,7 +237,8 @@
     -webkit-appearance: none;
     appearance: none;
     width: 12px;
-    height: 6px;
+    height: 12px;
+    border-radius: 50%;
     background-color: var(--primary-color);
     cursor: pointer;
   }
@@ -292,11 +294,14 @@
     align-items: center;
     justify-content: center;
     height: 0;
+    width: 100%;
+    max-width: 480px;
     transition: all 0.3s;
     overflow-y: hidden;
     overflow-x: hidden;
     position: absolute;
     top: 0;
+    left: 0;
     z-index: 3;
     background-color: #fff;
   }
